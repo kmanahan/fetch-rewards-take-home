@@ -2,7 +2,7 @@
 <ul>
     <% @transactions.each do |transaction| %>
         <li>
-            <%= transaction.payer %> : <%= transaction.points %> (<%= transaction.created_at %>)
+            <%= transaction.payer %> : <%= transaction.points %> points (<%= transaction.created_at %>)
         </li>
         <% end %>
 </ul>
